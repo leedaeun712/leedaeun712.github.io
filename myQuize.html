@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>프런트엔드 개발자 지원서</h1>
+  <p>HTML,CSS,Javascript에 대한 이해와 경험이 있는 분을 찾습니다.</p>
+  <hr>
+
+  <form>
+    <h3>개인정보</h3>
+    <table>
+      <tr>
+        <th><lavel for="sname">이름</lavel></th>
+        <td><input id="sname" type="text" size="20" autofocus required
+          placeholder="공백없이 입력하세요"><br></td>
+      </tr>
+      <tr>
+        <th><lavel for="stel">휴대폰</lavel></th>
+        <td><input id="stel" type="tel" size="20"><br></td>
+      </tr>
+      <tr>
+        <th><lavel for="semail">이메일</lavel></th>
+        <td><input id="semail" type="email" size="20"></td>
+      </tr>
+    </table>
+
+    <h3>지원분야</h3>
+    <ul>
+      <li><lavel><input type="radio" name="field" value="a1">웹 퍼블리싱</lavel></li>
+      <li><lavel><input type="radio" name="field" value="a1">웹 애플리케이션</lavel></li>
+      <li><lavel><input type="radio" name="field" value="a1">웹 개발환경개선</lavel>
+      </li>
+    </ul>
+
+    <h3>지원동기</h3>
+    <textarea clos="50" rows="5"
+    placeholder="본사 지원동기를 간략히 써 주세요"></textarea>
+
+    <div>
+      <button type="submit">접수하기</button>
+      <button type="reset">다시쓰기</button>
+    </div>
+    
+    
+  </form>
+</body>
+</html>
